@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<script language="javascript">
+			var score = 0;
+			
+			prompt("Are you ready for the quiz?");
+
+			function chk1(ans){
+				if(ans === "usain bolt") {
+				
+					score++
+					alert("Correct! Your score is now " + score);
+				}
+				else  {
+					score--
+					alert("Wrong! Your score is now " + score);
+				}
+			}
+
+			function chk2(ans){
+				if(ans === "Robert") {
+						score++
+						alert("Correct! Your score is now " + score);
+					}
+					else {
+						score--
+						alert("Wrong! Your score is now " + score);
+					}
+			}
+
+			function chk3(ans){
+				if(ans === "Drake") {
+					score++
+					alert("Correct! Your score is now " + score);
+				}
+				else {
+					score--
+					alert("Wrong! Your score is now " + score);
+				
+			}
+		}
+			
+			function chk4(ans){	
+				if(ans === "Bugatti") {
+					score++
+					alert("Correct! Your score is now " + score);
+				}
+				else {
+					score--
+					alert("Wrong! Your score is now " + score);
+					}
+				}
+				
+				function chk5(ans){
+				if(ans === "Noor") {
+					score++
+					alert("Correct! Your score is now " + score);
+				}
+				else {
+					score++ 
+					 location="https://www.google.ca/maps/place/India/@20.1505369,64.4805142,4z/data=!3m1!4b1!4m5!3m4!1s0x30635ff06b92b791:0xd78c4fa1854213a6!8m2!3d20.593684!4d78.96288"
+				
+				}
+			}
+				
+		</script>
+	</head>
+	<body>
+	<h1>Quiz! - Noor
+	</h1>
+	<hr />
+		<ol>
+			<form>
+				<li>Who's the worlds fastest person?</li>
+				<input name="ans1" type="text">
+				<input name="but1" type="button" value="Submit" onclick="chk1(form.ans1.value)">
+
+					<li>Who's the worlds tallest person?</li>
+				<input name="ans2" type="text">
+				<input name="but1" type="button" value="Submit" onclick="chk2(form.ans2.value)">
+				
+					<li>Who's the worlds best rapper/singer?</li>
+				<input name="ans3" type="text">
+				<input name="but1" type="button" value="Submit" onclick="chk3(form.ans3.value)">
+				
+				<li>What's the worlds fastest car?</li>
+				<input name="ans4" type="text">
+				<input name="but1" type="button" value="Submit" onclick="chk4(form.ans4.value)">
+				
+				<li>Who's the best student in the world?</li>
+				<input name="ans5" type="text">
+				<input name="but1" type="button" value="Submit" onclick="chk5(form.ans5.value)">
+			</form>
+		</ol>		
+		<form>
+		
+		</form>
+	</body>
+</html>
